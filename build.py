@@ -30,7 +30,7 @@ SITE = "メンズケア相談室"
 TAGLINE = "人に聞きにくい悩みを、ひとりで調べられる場所。"
 BASE_URL = "https://g-monotukun.github.io/mens-care-lab/"
 # Google Search Console の所有権確認用
-GSC_META = ''
+GSC_META = '\n<meta name="google-site-verification" content="g2Jn0JbKjPQR9hn0YPAHpSJyRZgExQNaeE51vIjmieE">'
 SITE_DESC = "ヒゲ脱毛や薄毛など、男性が人に相談しにくい悩みについて、受診や申込みの前に知っておきたい基礎知識をまとめるサイトです。"
 
 ICONS = {
