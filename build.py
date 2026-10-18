@@ -55,7 +55,13 @@ def version(name):
 
 # 広告キーごとの商品紹介。記事中の <div class="aff" data-aff="キー"></div> が商品ボックスになる。
 # テキストリンクは links.js の「キー_text」に登録するとボタンとして表示される。
-PRODUCTS = {}
+PRODUCTS = {
+    "ginkuri_aga": dict(
+        name="銀座総合美容クリニック", color="violet", icon="shield", badge="AGA無料カウンセリング",
+        tagline="AGA（薄毛）について、無料カウンセリングで相談できるクリニック",
+        points=["AGAの無料カウンセリングを予約できる", "治療を受けるかどうかは、医師の説明を聞いてから決められる", "料金や治療内容はカウンセリングや公式サイトで確認できる"],
+        article="aga-online-basics"),
+}
 
 
 def product_box(key, p, with_banner=True):
@@ -272,8 +278,8 @@ def build_home(articles):
 <div class="point">{icon('check', 22)}<div><strong>誇張しない</strong><p>体験談や効果の断定は載せません</p></div></div>
 </div></section>
 {picks_open}
-<h2 class="section-title">編集部おすすめのサービス</h2>
-<p class="section-lead">このサイトの運営や記事づくりの中で調べた、目的別のおすすめです。</p>
+<h2 class="section-title">このサイトで紹介しているサービス</h2>
+<p class="section-lead">記事の内容に関連するサービスです。料金や条件は各公式サイトでご確認ください。</p>
 {picks_close}
 <main class="wrap" id="articles">
 <h2 class="section-title">新着記事</h2>
