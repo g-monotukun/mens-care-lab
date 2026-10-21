@@ -56,6 +56,11 @@ def version(name):
 # 広告キーごとの商品紹介。記事中の <div class="aff" data-aff="キー"></div> が商品ボックスになる。
 # テキストリンクは links.js の「キー_text」に登録するとボタンとして表示される。
 PRODUCTS = {
+    "gorilla_skin": dict(
+        name="ゴリラクリニック", color="sky", icon="sparkle", badge="男性専門の美容クリニック",
+        tagline="男性専門の美容クリニック。ニキビや毛穴など、肌の悩みを医師に相談できる",
+        points=["男性専門の美容クリニック", "肌の悩みについて医師に相談できる", "施術内容や料金はカウンセリングや公式サイトで確認できる"],
+        article="mens-skin-trouble"),
     "bidan": dict(
         name="BIDAN", color="teal", icon="shield", badge="関西の頭皮・髪の専門サロン",
         tagline="大阪・神戸・奈良・滋賀で、頭皮や髪の悩みを相談できる専門サロン",
@@ -252,6 +257,7 @@ GOALS = [
     ("ヒゲ脱毛を始めたい", "始める時期の考え方", "beard-removal-timing", "calendar", "teal"),
     ("医療脱毛とサロンの違いを知りたい", "違いと選び方", "clinic-vs-salon", "razor", "sky"),
     ("薄毛が気になり始めた", "オンライン診療の流れ", "aga-online-basics", "phone", "violet"),
+    ("肌荒れやニキビが治らない", "セルフケアと受診の目安", "mens-skin-trouble", "sparkle", "amber"),
 ]
 
 

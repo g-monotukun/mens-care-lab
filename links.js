@@ -7,6 +7,8 @@ const AFF_LINKS = {
   ginkuri_aga_text: ``,
   bidan: `<a href="https://t.afi-b.com/visit.php?a=t13659U-O453239t&p=k997771v" rel="nofollow"><img src="https://www.afi-b.com/upload_image/13659-1647936734-3.jpg" width="300" height="250" style="border:none;" alt="男性向け" /></a><img src="https://t.afi-b.com/lead/t13659U/k997771v/O453239t" width="1" height="1" style="border:none;" />`, // BIDAN 発毛・育毛専門メディカルサロン（afb）※社名・商流関連ワードでのリスティング出稿NG
   bidan_text: ``,
+  gorilla_skin: `<a href="https://t.afi-b.com/visit.php?a=58658u-S293343J&p=k997771v" rel="nofollow"><img src="https://www.afi-b.com/upload_image/8658-1501989767-3.gif" width="320" height="100" style="border:none;" alt="ゴリラクリニック" /></a><img src="https://t.afi-b.com/lead/58658u/k997771v/S293343J" width="1" height="1" style="border:none;" />`, // ゴリラクリニック メンズスキンケア 初回来院（afb）※社名・商品名でのリスティング誘導NG
+  gorilla_skin_text: ``,
 };
 
 document.querySelectorAll("[data-aff]").forEach((el) => {
