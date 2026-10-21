@@ -56,6 +56,11 @@ def version(name):
 # 広告キーごとの商品紹介。記事中の <div class="aff" data-aff="キー"></div> が商品ボックスになる。
 # テキストリンクは links.js の「キー_text」に登録するとボタンとして表示される。
 PRODUCTS = {
+    "bidan": dict(
+        name="BIDAN", color="teal", icon="shield", badge="関西の頭皮・髪の専門サロン",
+        tagline="大阪・神戸・奈良・滋賀で、頭皮や髪の悩みを相談できる専門サロン",
+        points=["関西（大阪・神戸・奈良・滋賀）に店舗がある", "頭皮や髪のケアについて相談できる", "医療機関ではないため、診断や薬の処方は行わない"],
+        article="hair-clinic-vs-salon"),
     "ginkuri_aga": dict(
         name="銀座総合美容クリニック", color="violet", icon="shield", badge="AGA無料カウンセリング",
         tagline="AGA（薄毛）について、無料カウンセリングで相談できるクリニック",
