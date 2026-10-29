@@ -56,6 +56,11 @@ def version(name):
 # 広告キーごとの商品紹介。記事中の <div class="aff" data-aff="キー"></div> が商品ボックスになる。
 # テキストリンクは links.js の「キー_text」に登録するとボタンとして表示される。
 PRODUCTS = {
+    "sbc_mens_hair": dict(
+        name="湘南美容クリニック", color="sky", icon="razor", badge="医療脱毛（メンズ）",
+        tagline="全国に院がある美容クリニック。男性向けの医療レーザー脱毛を相談できる",
+        points=["医療機関なので、肌トラブルのときも医師に相談できる", "全国に院があり、通いやすい場所を選びやすい", "部位・回数・料金はカウンセリングや公式サイトで確認できる"],
+        article="beard-removal-timing"),
     "gorilla_skin": dict(
         name="ゴリラクリニック", color="sky", icon="sparkle", badge="男性専門の美容クリニック",
         tagline="男性専門の美容クリニック。ニキビや毛穴など、肌の悩みを医師に相談できる",
