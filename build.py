@@ -30,6 +30,18 @@ SITE = "メンズケア相談室"
 TAGLINE = "人に聞きにくい悩みを、ひとりで調べられる場所。"
 BASE_URL = "https://g-monotukun.github.io/mens-care-lab/"
 # Google Search Console の所有権確認用
+# Google アナリティクス（GA4）の測定ID（例: "G-XXXXXXXXXX"）。空なら計測タグを入れない
+GA_ID = ""
+
+
+def ga_tag():
+    if not GA_ID:
+        return ""
+    return (f'\n<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>'
+            f'\n<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}'
+            f"gtag('js',new Date());gtag('config','{GA_ID}');</script>")
+
+
 GSC_META = '\n<meta name="google-site-verification" content="g2Jn0JbKjPQR9hn0YPAHpSJyRZgExQNaeE51vIjmieE">'
 SITE_DESC = "ヒゲ脱毛や薄毛など、男性が人に相談しにくい悩みについて、受診や申込みの前に知っておきたい基礎知識をまとめるサイトです。"
 
@@ -158,7 +170,7 @@ def layout(title, description, body, p, is_home=False, path="", head=""):
 <meta property="og:description" content="{html.escape(description)}">
 <meta property="og:type" content="{'website' if is_home else 'article'}">
 <meta property="og:url" content="{BASE_URL}{path}">
-<link rel="canonical" href="{BASE_URL}{path}">{GSC_META if is_home else ""}{head}
+<link rel="canonical" href="{BASE_URL}{path}">{GSC_META if is_home else ""}{ga_tag()}{head}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
