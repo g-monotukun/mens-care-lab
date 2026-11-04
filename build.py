@@ -31,7 +31,7 @@ TAGLINE = "人に聞きにくい悩みを、ひとりで調べられる場所。
 BASE_URL = "https://g-monotukun.github.io/mens-care-lab/"
 # Google Search Console の所有権確認用
 # Google アナリティクス（GA4）の測定ID（例: "G-XXXXXXXXXX"）。空なら計測タグを入れない
-GA_ID = ""
+GA_ID = "G-J58938FP7D"
 
 
 def ga_tag():
