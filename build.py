@@ -68,6 +68,11 @@ def version(name):
 # 広告キーごとの商品紹介。記事中の <div class="aff" data-aff="キー"></div> が商品ボックスになる。
 # テキストリンクは links.js の「キー_text」に登録するとボタンとして表示される。
 PRODUCTS = {
+    "sbc_aga": dict(
+        name="湘南美容クリニック", color="violet", icon="shield", badge="AGA治療・自毛植毛",
+        tagline="全国に院がある美容クリニック。投薬治療から自毛植毛まで、薄毛の治療を医師に相談できる",
+        points=["投薬治療・メソセラピー・自毛植毛など、複数の治療について相談できる", "全国に院があり、通いやすい場所を選びやすい（自毛植毛は実施する院が限られる）", "治療内容・料金・リスクはカウンセリングや公式サイトで確認できる"],
+        article="hair-treatment-types"),
     "sbc_mens_hair": dict(
         name="湘南美容クリニック", color="sky", icon="razor", badge="医療脱毛（メンズ）",
         tagline="全国に院がある美容クリニック。男性向けの医療レーザー脱毛を相談できる",
@@ -274,6 +279,7 @@ GOALS = [
     ("ヒゲ脱毛を始めたい", "始める時期の考え方", "beard-removal-timing", "calendar", "teal"),
     ("医療脱毛とサロンの違いを知りたい", "違いと選び方", "clinic-vs-salon", "razor", "sky"),
     ("薄毛が気になり始めた", "オンライン診療の流れ", "aga-online-basics", "phone", "violet"),
+    ("薄毛の治療の種類を知りたい", "投薬・注入・植毛の違い", "hair-treatment-types", "shield", "teal"),
     ("肌荒れやニキビが治らない", "セルフケアと受診の目安", "mens-skin-trouble", "sparkle", "amber"),
 ]
 
