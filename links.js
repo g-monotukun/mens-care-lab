@@ -6,13 +6,13 @@ const AFF_LINKS = {
 <img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4BEHX8+51L922+211Q+631SX" alt="">`, // 銀座総合美容クリニック AGA無料カウンセリング（A8.net）
   ginkuri_aga_text: ``,
   bidan: `<a href="https://t.afi-b.com/visit.php?a=t13659U-O453239t&p=k997771v" rel="nofollow"><img src="https://www.afi-b.com/upload_image/13659-1647936734-3.jpg" width="300" height="250" style="border:none;" alt="男性向け" /></a><img src="https://t.afi-b.com/lead/t13659U/k997771v/O453239t" width="1" height="1" style="border:none;" />`, // BIDAN 発毛・育毛専門メディカルサロン（afb）※社名・商流関連ワードでのリスティング出稿NG
-  bidan_text: ``,
+  bidan_text: `<a href="https://t.afi-b.com/visit.php?a=t13659U-H500145u&p=k997771v" rel="nofollow">公式サイトで詳しく見る</a><img src="https://t.afi-b.com/lead/t13659U/k997771v/H500145u" width="1" height="1" style="border:none;" />`,
   gorilla_skin: `<a href="https://t.afi-b.com/visit.php?a=58658u-S293343J&p=k997771v" rel="nofollow"><img src="https://www.afi-b.com/upload_image/8658-1501989767-3.gif" width="320" height="100" style="border:none;" alt="ゴリラクリニック" /></a><img src="https://t.afi-b.com/lead/58658u/k997771v/S293343J" width="1" height="1" style="border:none;" />`, // ゴリラクリニック メンズスキンケア 初回来院（afb）※社名・商品名でのリスティング誘導NG
-  gorilla_skin_text: ``,
+  gorilla_skin_text: `<a href="https://t.afi-b.com/visit.php?a=58658u-V292891c&p=k997771v" rel="nofollow">公式サイトで詳しく見る</a><img src="https://t.afi-b.com/lead/58658u/k997771v/V292891c" width="1" height="1" style="border:none;" />`,
   sbc_mens_hair: `<a href="https://t.afi-b.com/visit.php?a=966543-4222760M&p=k997771v" rel="nofollow"><img src="https://www.afi-b.com/upload_image/6654-1415466978-3.gif" width="200" height="200" style="border:none;" alt="オトコの根こそぎレーザー脱毛" /></a><img src="https://t.afi-b.com/lead/966543/k997771v/4222760M" width="1" height="1" style="border:none;" />`, // 湘南美容クリニック メンズ脱毛 来院・施術（afb）※クリニック名でのリスティングNG／起用タレントの肖像・名前の使用禁止／PR表記必須
-  sbc_mens_hair_text: ``,
+  sbc_mens_hair_text: `<a href="https://t.afi-b.com/visit.php?a=966543-p312452s&p=k997771v" rel="nofollow">公式サイトで料金を見る</a><img src="https://t.afi-b.com/lead/966543/k997771v/p312452s" width="1" height="1" style="border:none;" />`,
   sbc_aga: `<a href="https://t.afi-b.com/visit.php?a=B35183-K482366M&p=k997771v" rel="nofollow"><img src="https://www.afi-b.com/upload_image/3518-1696126552-3.png" width="500" height="500" style="border:none;" alt="湘南美容外科クリニック" /></a><img src="https://t.afi-b.com/lead/B35183/k997771v/K482366M" width="1" height="1" style="border:none;" />`, // 湘南美容クリニック AGA治療・自毛植毛（afb）※PR表記必須
-  sbc_aga_text: ``,
+  sbc_aga_text: `<a href="https://t.afi-b.com/visit.php?a=B35183-F439770m&p=k997771v" rel="nofollow">公式サイトで詳しく見る</a><img src="https://t.afi-b.com/lead/B35183/k997771v/F439770m" width="1" height="1" style="border:none;" />`,
 };
 
 document.querySelectorAll("[data-aff]").forEach((el) => {
