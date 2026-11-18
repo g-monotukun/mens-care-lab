@@ -282,7 +282,7 @@ def build_article(a, articles):
 
 
 GOALS = [
-    ("ヒゲ脱毛を始めたい", "始める時期の考え方", "beard-removal-timing", "calendar", "teal"),
+    ("ヒゲ脱毛を始めたい", "通う間隔と始める時期", "beard-removal-timing", "calendar", "teal"),
     ("医療脱毛とサロンの違いを知りたい", "違いと選び方", "clinic-vs-salon", "razor", "sky"),
     ("薄毛が気になり始めた", "オンライン診療の流れ", "aga-online-basics", "phone", "violet"),
     ("薄毛の治療の種類を知りたい", "投薬・注入・植毛の違い", "hair-treatment-types", "shield", "teal"),
