@@ -88,6 +88,11 @@ PRODUCTS = {
         tagline="大阪・神戸・奈良・滋賀で、頭皮や髪の悩みを相談できる専門サロン",
         points=["関西（大阪・神戸・奈良・滋賀）に店舗がある", "頭皮や髪のケアについて相談できる", "医療機関ではないため、診断や薬の処方は行わない"],
         article="hair-clinic-vs-salon"),
+    "ekimae_aga": dict(
+        name="駅前AGAクリニック", color="teal", icon="shield", badge="全国14院・遠隔診療あり",
+        tagline="駅の近くで通いやすい、AGA（薄毛）の相談ができるクリニック",
+        points=["全国14院を展開（2026年11月時点）", "完全予約制・一般のビル内でプライバシーに配慮", "スマホでの遠隔診療と、無料の画像診断に対応"],
+        article="aga-online-basics"),
     "ginkuri_aga": dict(
         name="銀座総合美容クリニック", color="violet", icon="shield", badge="AGA無料カウンセリング",
         tagline="AGA（薄毛）について、無料カウンセリングで相談できるクリニック",
