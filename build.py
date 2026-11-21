@@ -68,6 +68,11 @@ def version(name):
 # 広告キーごとの商品紹介。記事中の <div class="aff" data-aff="キー"></div> が商品ボックスになる。
 # テキストリンクは links.js の「キー_text」に登録するとボタンとして表示される。
 PRODUCTS = {
+    "figo": dict(
+        name="メンズ脱毛figo（フィーゴ）", color="teal", icon="razor", badge="完全都度払い制サロン",
+        tagline="コース契約なしで、1回ごとに支払って通える男性専門の脱毛サロン",
+        points=["コース契約不要の完全都度払い制。時間制で料金が分かりやすい", "当日予約OK、キャンセル手数料なし", "個室あり・物販なし。東京・埼玉・大阪・名古屋に店舗"],
+        article="clinic-vs-salon"),
     "sbc_aga": dict(
         name="湘南美容クリニック", color="violet", icon="shield", badge="AGA治療・自毛植毛",
         tagline="全国に院がある美容クリニック。投薬治療から自毛植毛まで、薄毛の治療を医師に相談できる",
