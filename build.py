@@ -73,6 +73,11 @@ PRODUCTS = {
         tagline="コース契約なしで、1回ごとに支払って通える男性専門の脱毛サロン",
         points=["コース契約不要の完全都度払い制。時間制で料金が分かりやすい", "当日予約OK、キャンセル手数料なし", "個室あり・物販なし。東京・埼玉・大阪・名古屋に店舗"],
         article="clinic-vs-salon"),
+    "rbl": dict(
+        name="ROLAND Beauty Lounge", color="violet", icon="razor", badge="男性向け脱毛サロン",
+        tagline="ROLANDさんがプロデュースした、男性向けの脱毛サロン",
+        points=["ROLANDさんがプロデュースした脱毛サロン", "脱毛機「LUMIX A9」を導入", "料金・店舗・施術内容は公式サイトで確認できる"],
+        article="clinic-vs-salon"),
     "sbc_aga": dict(
         name="湘南美容クリニック", color="violet", icon="shield", badge="AGA治療・自毛植毛",
         tagline="全国に院がある美容クリニック。投薬治療から自毛植毛まで、薄毛の治療を医師に相談できる",
