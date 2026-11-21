@@ -78,6 +78,11 @@ PRODUCTS = {
         tagline="ROLANDさんがプロデュースした、男性向けの脱毛サロン",
         points=["ROLANDさんがプロデュースした脱毛サロン", "脱毛機「LUMIX A9」を導入", "料金・店舗・施術内容は公式サイトで確認できる"],
         article="clinic-vs-salon"),
+    "agaskin": dict(
+        name="AGAスキンクリニック", color="sky", icon="shield", badge="AGA専門・全国60院以上",
+        tagline="薄毛の治療を専門にした、全国60院以上のAGAクリニック",
+        points=["完全予約制・全室個室で、ほかの人と顔を合わせずに相談できる", "カウンセリング・マイクロスコープ・血液検査が無料", "治療内容・料金・リスクはカウンセリングや公式サイトで確認できる"],
+        article="aga-clinic-compare"),
     "sbc_aga": dict(
         name="湘南美容クリニック", color="violet", icon="shield", badge="AGA治療・自毛植毛",
         tagline="全国に院がある美容クリニック。投薬治療から自毛植毛まで、薄毛の治療を医師に相談できる",
